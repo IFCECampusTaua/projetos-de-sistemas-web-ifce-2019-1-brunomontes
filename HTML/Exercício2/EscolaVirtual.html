@@ -11,11 +11,11 @@
 			<table id="tab1">
 				Dados pessoais:
 				<tr>
-					<td class="col1">Nome do Aluno:</td>
+					<td class="t1col1">Nome do Aluno:</td>
 					<td><input type="text" class="cText" maxlength="55"></td>
 				</tr>
 				<tr>
-					<td class="col1">Nascimento (dd/mm/aaaa):</td>
+					<td class="t1col1">Nascimento (dd/mm/aaaa):</td>
 					<td>
 						<input type="number" class="cData" maxlength="2" min="1" max="12">/
 						<input type="number" class="cData" maxlength="2" min="1" max="31">/
@@ -23,15 +23,15 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="col1">Nome da Mãe:</td>
+					<td class="t1col1">Nome da Mãe:</td>
 					<td><input type="text" class="cText" maxlength="55"></td>
 				</tr>
 				<tr>
-					<td class="col1">Nome do Pai:</td>
+					<td class="t1col1">Nome do Pai:</td>
 					<td><input type="text" class="cText" maxlength="55"></td>
 				</tr>
 				<tr>
-					<td class="col1">Telefone:</td>
+					<td class="t1col1">Telefone:</td>
 					<td>
 						DDD (<input type="number" id="cDdd">) 
 						Tel: <input type="Telefone" id="phone">
@@ -39,8 +39,54 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="col1">E-mail: </td>
+					<td class="t1col1">E-mail: </td>
 					<td><input type="E-mail" class="cText" maxlength="40"></td>
+				</tr>
+			</table>
+			<table id="tab2">
+				Informações de Matrícula:
+				<tr>
+					<td class="t2col1">Série:</td>
+					<td class="t2col2">Turno:</td>
+					<td class="t2col3">Atividades Extracurriculares:</td>
+				</tr>
+				<tr>
+					<td class="t2col1">
+						<select>
+            		          <option> pré-escolar</option>
+            		          <option> ensino fundamental</option>
+            		          <option> ensino médio</option>
+            		          <option> graduação</option>
+            		          <option> pós-graduação</option>
+            		    </select>
+            		</td>
+					<td class="t2col2"><input type="radio" name="turno" value="manha">Manhã</td>
+					<td class="t2col3"><input type="checkbox" name="informatica">Informática</td>
+				</tr>
+				<tr>
+					<td class="t2col1"></td>
+					<td class="t2col2"><input type="radio" name="turno" value="turno">Tarde</td>
+					<td class="t2col3"><input type="checkbox" name="musica">Música</td>
+				</tr>
+				<tr>
+					<td class="t2col1"></td>
+					<td class="t2col2"></td>
+					<td class="t2col3"><input type="checkbox" name="balet">Balet</td>
+				</tr>
+				<tr>
+					<td class="t2col1"></td>
+					<td class="t2col2"></td>
+					<td class="t2col3"><input type="checkbox" name="pintura">Pintura</td>
+				</tr>
+				<tr>
+					<td class="t2col1"></td>
+					<td class="t2col2"></td>
+					<td class="t2col3"><input type="checkbox" name="judo">Judô</td>
+				</tr>
+				<tr>
+					<td class="t2col1"></td>
+					<td class="t2col2"></td>
+					<td class="t2col3"><input type="checkbox" name="futebel">Futebol</td>
 				</tr>
 			</table>
 			</form>

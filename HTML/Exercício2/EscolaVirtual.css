@@ -5,6 +5,13 @@
 	width: 500px;
 }
 
+#tab2{
+	font-family: Arial;
+	font-size: 12px;
+	border: 1px double #fff;
+	width: 500px;
+}
+
 .cText{
 	width: 60%;
 }
@@ -29,8 +36,22 @@
 	width: 12%;
 }
 
-.col1{
+.t1col1{
 	text-align: right;
 	width: 35%;
 }
 
+.t2col1{
+	text-align: left;
+	width: 30%;
+}
+
+.t2col2{
+	text-align: left;
+	width: 30%;
+}
+
+.t2col3{
+	text-align: left;
+	width: 30%;
+}
