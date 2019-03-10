@@ -1,15 +1,17 @@
 #tab1{
 	font-family: Arial;
 	font-size: 12px;
-	border: 1px double #fff;
+	border: double;
 	width: 500px;
+	
 }
 
 #tab2{
 	font-family: Arial;
 	font-size: 12px;
-	border: 1px double #fff;
+	border: double;
 	width: 500px;
+
 }
 
 .cText{
@@ -17,23 +19,23 @@
 }
 
 .cData{
-	width: 9%;
+	width: 10%;
 }
 
 #cAno{
-	width: 12%;
+	width: 15%;
 }
 
 #cDdd{
-	width: 12%;
+	width: 14%;
 }
 
 #phone{
 	width: 25%;
 }
 
-#num{
-	width: 12%;
+#cRamal{
+	width: 14%;
 }
 
 .t1col1{
@@ -54,4 +56,21 @@
 .t2col3{
 	text-align: left;
 	width: 30%;
+}
+
+th{
+	text-align: left;
+}
+
+form{
+	text-align: center;
+	width: 500px;
+}
+
+.buttom{
+	margin-top: 15px;
+}
+
+h3{
+	font-family: arial;
 }

@@ -8,8 +8,12 @@
 	<body>
 		<form>
 			<h2>Escola Virtual</h2>
+			<h3>Formulário de Pré-Matrícula</h3>
+			<hr />
 			<table id="tab1">
-				Dados pessoais:
+				<tr>
+					<th>Dados Pessoais:</th>
+				</tr>
 				<tr>
 					<td class="t1col1">Nome do Aluno:</td>
 					<td><input type="text" class="cText" maxlength="55"></td>
@@ -35,7 +39,7 @@
 					<td>
 						DDD (<input type="number" id="cDdd">) 
 						Tel: <input type="Telefone" id="phone">
-						Ramal: <input type="number" id="num">
+						Ramal: <input type="number" id="cRamal">
 					</td>
 				</tr>
 				<tr>
@@ -44,7 +48,9 @@
 				</tr>
 			</table>
 			<table id="tab2">
-				Informações de Matrícula:
+				<tr>
+					<th>Informações de Matrícula:</th>
+				</tr>
 				<tr>
 					<td class="t2col1">Série:</td>
 					<td class="t2col2">Turno:</td>
@@ -89,6 +95,8 @@
 					<td class="t2col3"><input type="checkbox" name="futebel">Futebol</td>
 				</tr>
 			</table>
+				<input type="submit" value="Envia Formulário" class="buttom">
+				<input type="reset" value="Limpa Campos" class="buttom">
 			</form>
 	</body>
 </html>
