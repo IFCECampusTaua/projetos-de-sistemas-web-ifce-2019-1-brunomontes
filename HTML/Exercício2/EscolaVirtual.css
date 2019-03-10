@@ -1,0 +1,36 @@
+#tab1{
+	font-family: Arial;
+	font-size: 12px;
+	border: 1px double #fff;
+	width: 500px;
+}
+
+.cText{
+	width: 60%;
+}
+
+.cData{
+	width: 9%;
+}
+
+#cAno{
+	width: 12%;
+}
+
+#cDdd{
+	width: 12%;
+}
+
+#phone{
+	width: 25%;
+}
+
+#num{
+	width: 12%;
+}
+
+.col1{
+	text-align: right;
+	width: 35%;
+}
+
