@@ -1,0 +1,48 @@
+
+#title-head{
+	background-color: #349adb;
+	height: 300px;
+	width: 50%;
+	text-align: center;
+	font: bold 50px arial;
+	padding-top: 35px;
+	color: #fffcfe;
+
+}
+
+.menu{
+	background-color: #2e8ac6;
+	font-size: 17px;
+	height: 60px;
+	position: relative;
+	top: 180px;
+
+}
+
+#home{
+	width: 50px;
+	position: absolute;
+	top: 32%;
+	left: 34%;
+}
+
+#about{
+	width: 50px;
+	position: absolute;
+	top: 32%;
+	left: 42%;
+}
+
+#gallery{
+	width: 50px;
+	position: absolute;
+	top: 32%;
+	left: 50%;
+}
+
+#contact{
+	width: 50px;
+	position: absolute;
+	top: 32%;
+	left: 59%;
+}
