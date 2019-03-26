@@ -1,0 +1,98 @@
+body{
+	background-color: #D3D3D3;
+}
+
+#login-box{
+	background-color: #DCDCDC;
+	width: 400px;
+	height: 430px;
+	margin: 100px auto 0px;
+	border-radius: 6px;
+	border: 1px solid #20B2AA;
+	box-shadow: 0px 2px 0px #CDC9C9;
+	overflow: hidden;
+}
+
+#title{
+	
+	height: 60px;
+	text-align: center;
+	font: bold 35px arial;
+	color: #00868B;
+	margin-top: 20px;
+	border-bottom: 1px ridge #20B2AA;
+
+}
+
+.div-input{
+	margin: 25px;
+	border-radius: 6px;
+}
+
+.div-input input{
+	width: 335px;
+	height: 25px;
+	background-color: #F5F5F5;
+	padding: 5px;
+	font: normal 15px arial;
+	color: #aeaeae;
+	border: 1px solid #bfc4c6;
+	border-radius: 3px;
+}
+
+#usuario{
+	margin-top: 3px;
+}
+#senha{
+	margin-top: 3px;
+}
+
+.label{
+	color: #6E7B8B;
+	font: bold 15px arial;
+	padding-left: 27px;
+}
+
+#label1{
+	margin-top: 23px;
+
+}
+
+.butons{
+	margin-left: 25px;
+}
+
+
+#buton{
+	margin-top: 10px;
+	width: 347px;
+	height: 35px;
+	background-color: #00868B;
+	padding: 5px;
+	border-style: none;
+	border-radius: 3px;
+	font: bold 20px arial;
+	color: #F5F5F5;
+}
+
+#footer-login{
+	margin-top: 30px;
+	background-color: #79CDCD;
+	width: 400px;
+	height: 100%;
+	color: #778899;
+	font: normal 18px arial;
+	padding-left: 100px;
+	padding-top: 20px;
+}
+
+#btn-cad{
+	background-color: #F5F5F5;
+	width: 104px;
+	height: 28px;
+	border-style: none;
+	border-radius: 3px;
+	font: bold 16px arial;
+	color: #20B2AA;
+
+}
