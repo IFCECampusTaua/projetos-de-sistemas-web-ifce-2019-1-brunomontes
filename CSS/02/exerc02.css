@@ -1,10 +1,12 @@
+body{
+	width: 50%;
+}
 
 #title-head{
 	background-color: #349adb;
 	height: 300px;
-	width: 50%;
 	text-align: center;
-	font: bold 50px arial;
+	font: normal 50px arial;
 	padding-top: 35px;
 	color: #fffcfe;
 
@@ -45,4 +47,25 @@
 	position: absolute;
 	top: 32%;
 	left: 59%;
+}
+
+#back-text{
+	background-color: #ecf1f4;
+	height: 500px;
+	padding: 25px 20px 20px 20px;
+
+}
+
+#content-text{
+	font-family: arial;
+	text-align: left;
+	background-color: #ffffff;
+	padding: 30px 10px 10px 10px;
+	color: #b7b8b8;
+	
+}
+
+#title-content{
+	font: normal 50px arial;
+	color: #212426;
 }
