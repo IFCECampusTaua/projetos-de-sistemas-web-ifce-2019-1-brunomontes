@@ -1,0 +1,78 @@
+table{
+    border: 1px solid #DDDDDD;
+    font-family: Arial;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top123{
+    color: #003366;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.top4{
+    color: #1398BE;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.top56{
+    color: #DE9800;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+th{
+    font-size: 13px;
+    color: #999999;
+    text-align: center;
+    border-bottom: 1px solid #DDDDDD;
+    width: 20px;
+    padding: 5px;
+}
+
+.nometime{
+    font-size: 14px;
+    color: #666666;
+    text-align: left;
+    font-weight: bold;
+    padding-right: 100px;
+}
+
+.ptstime{
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    background-color: #F7F7F7;
+}
+
+.fundocol{
+    background-color: #F7F7F7;
+}
+
+td{
+    border-bottom: 1px solid #DDDDDD;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    width: 20px;
+    padding: 5px;
+}
+
+#border45{
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.ucol{
+    font-size: 14px;
+    color: #666666;
+    background-color: #F7F7F7;
+    text-align: center;
+    width: 35px;
+}
