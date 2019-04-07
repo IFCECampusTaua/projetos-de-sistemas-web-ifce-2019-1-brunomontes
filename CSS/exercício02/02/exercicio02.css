@@ -2,3 +2,18 @@ th{
 	font: bold 15px arial;
 	text-align: left;
 }
+
+.btn-visualizar{
+	background-color: #74b767;
+	color: #FFFAFA;
+}
+
+.btn-editar{
+	background-color: #e5ac5b;
+	color: #FFFAFA;
+}
+
+.btn-excluir{
+	background-color: #d25d54;
+	color: #FFFAFA;
+}
