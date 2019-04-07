@@ -1,19 +1,50 @@
+
+table{
+	font: normal 15px arial;
+	border-collapse: collapse;
+}
 th{
 	font: bold 15px arial;
 	text-align: left;
+	border-bottom: 2px solid #e9e9e9;
+}
+
+td{
+	border-bottom: 1px solid #e9e9e9;
+}
+
+.back-gray{
+	background-color: #f9f9f9;
+
 }
 
 .btn-visualizar{
 	background-color: #74b767;
 	color: #FFFAFA;
+	border-radius: 5px;
+	border: none;
+	height: 25px;
+	width: 80px;
 }
 
 .btn-editar{
 	background-color: #e5ac5b;
 	color: #FFFAFA;
+	border-radius: 5px;
+	border: none;
+	height: 25px;
+	width: 50px;
 }
 
 .btn-excluir{
 	background-color: #d25d54;
 	color: #FFFAFA;
+	border-radius: 5px;
+	border: none;
+	height: 25px;
+	width: 60px;
+}
+
+.ult-col{
+	border: none; 
 }
