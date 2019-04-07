@@ -1,16 +1,45 @@
+body{
+	font: normal 15px arial;
+	margin: 0px;
+
+}
 
 table{
-	font: normal 15px arial;
 	border-collapse: collapse;
+	width: 100%;
+
 }
 th{
 	font: bold 15px arial;
 	text-align: left;
 	border-bottom: 2px solid #e9e9e9;
+	padding: 5px;
 }
 
 td{
 	border-bottom: 1px solid #e9e9e9;
+	padding: 5px;
+}
+
+header{
+	background-color: #202022;
+	height: 50px;
+}
+
+.btn-header{
+	background-color: #202022;
+	color: #7e807f;
+	border: none;
+	padding: 12px;
+	position: relative;
+	left: 76%;
+
+}
+
+#btn-home{
+	font-size: 20px;
+	position: relative;
+	left: 0px;
 }
 
 .back-gray{
@@ -47,4 +76,67 @@ td{
 
 .ult-col{
 	border: none; 
+}
+
+#identificador{
+	width: 80px;
+}
+
+#header1{
+	width: 600px;
+}
+
+#header2{
+	width: 150px;
+}
+
+#header3{
+	width: 150px;
+}
+
+#acoes{
+	width: 200px;
+}
+
+#btn-search{
+	background-color: #3f7dac;
+	color: #e4f4f3;
+	border: none;
+	border-radius: 0px 5px 5px 0px;
+	position: relative;
+	top: 27px;
+	left: 625px;
+}
+
+#div-principal{
+	height: 130px;
+}
+
+#text1{
+	font: bold 25px arial;
+	position: relative;
+	top: 40%;
+	left: 20px;
+}
+
+#camp-text{
+	width: 600px;
+	height: 25px;
+	position: relative;
+	top: 20px;
+	left: 630px;
+	border-radius: 5px 0px 0px 5px;
+}
+
+#btn-novo-it{
+	background-color: #3f7dac;
+	color: #e4f4f3;
+	border: none;
+	border-radius: 5px;
+	height: 30px;
+	width: 80;
+	position: relative;
+	top: 20px;
+	left: 1180px;
+
 }
