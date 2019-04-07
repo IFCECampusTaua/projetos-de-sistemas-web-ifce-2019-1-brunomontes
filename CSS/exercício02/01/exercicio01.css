@@ -1,6 +1,5 @@
 body{
 	font: normal 30px arial;
-	width: 50%;
 	color: #FFFAFA;
 	background-color: #fefdff;
 	text-align: center;
@@ -56,4 +55,73 @@ footer{
 	top: 88%;
 	height: 12%;
 	width: 50%;
+}
+
+@media screen and (max-width: 480px){
+
+	body{
+		font: normal 30px arial;
+		color: #FFFAFA;
+		background-color: #fefdff;
+		text-align: center;
+	}
+
+	header{
+		background-color: #d0011b;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		height: 10%;
+		width: 100%;
+	}
+
+	nav{
+		background-color: #f5a623;
+		position: absolute;
+		top: 10.3%;
+		left: 0px;
+		height: 10%;
+		width: 100%;
+	}
+
+	section{
+		background-color: #4ca784;
+		position: absolute;
+		top: 20.5%;
+		left: 0px;
+		height: 37.4%;
+		width: 100%;
+	}
+
+
+
+	aside{
+		background-color: #4990e2;
+		position: absolute;
+		top: 58%;
+		left: 0px;
+		height: 32%;
+		width: 100%;
+	}
+
+	article{
+		background-color: #7ed320;
+		position: relative;
+		top: 10%;
+		left: 5%;
+		width: 90%;
+		height: 30%;
+		margin-bottom: 15px;
+
+	}
+
+	footer{
+		background-color: #9b9b9b;
+		position: absolute;
+		top: 90%;
+		left: 0px;
+		height: 10%;
+		width: 100%;
+	}
+
 }
