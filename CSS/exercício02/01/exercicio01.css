@@ -1,0 +1,59 @@
+body{
+	font: normal 30px arial;
+	width: 50%;
+	color: #FFFAFA;
+	background-color: #fefdff;
+	text-align: center;
+}
+
+header{
+	background-color: #d0011b;
+	position: absolute;
+	top: 0px;
+	height: 15%;
+	width: 50%;
+}
+
+nav{
+	background-color: #f5a623;
+	position: absolute;
+	top: 16%;
+	height: 15%;
+	width: 50%;
+}
+
+section{
+	background-color: #4ca784;
+	position: absolute;
+	top: 32%;
+	height: 55%;
+	width: 29.5%;
+}
+
+article{
+	background-color: #7ed320;
+	position: relative;
+	top: 27%;
+	left: 5%;
+	width: 90%;
+	height: 30%;
+	margin-bottom: 15px;
+
+}
+
+aside{
+	background-color: #4990e2;
+	position: absolute;
+	top: 32%;
+	left: 31%;
+	height: 55%;
+	width: 19.4%;
+}
+
+footer{
+	background-color: #9b9b9b;
+	position: absolute;
+	top: 88%;
+	height: 12%;
+	width: 50%;
+}
